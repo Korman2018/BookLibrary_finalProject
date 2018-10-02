@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+
+#admin_base_body  {
+    margin-top: 180px;
+}
+
+#admin_info_body, #admin_book_info_body, #reader_info_body  {
+    margin-top: 80px;
+}
+
+#admin_requests_body, #admin_authors_body, #admin_genres_body, #reader_base_body, #reader_requests_body  {
+    margin-top: 135px;
+}
+
+div {
+    display: block;
+    min-width: 100%;
+    max-width: 100%; 
+    width: 100%;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            margin: 0px;
+            font-family: sans-serif;
+            font-size: 14px;
+  }
+
+.page_headers {
+    padding: 10px;
+    position: fixed;
+    top: 65px;
+    background: #97add1;
+}
+
+#admin_header, #reader_header {
+      position: fixed;
+      top: 0px;
+      height: 70px;
+}
+
+#admin_base_header {
+    height: 105px;
+    padding: 0px;
+}
+
+#admin_authors_header, #admin_requests_header, #admin_genres_header, #reader_base_header, #reader_requests_header  {
+    height: 60px;
+}
+
+.add_margins {
+    margin: 5px;
+}
+
+.details * {
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    margin: 0px;
+
+}
+
+li {
+    float: left;
+    padding: 10px;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+   
+}
+
+.hvr tr:hover {
+	background-color: #f2f2f2;
+	cursor:pointer;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+input[type=text],  select {
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.hdn, #book_id , .id_book , .id_user, .id_genre, .id_author {
+	display:none;
+}
+
+.form_buttons {
+	width: 200px;
+	height: 30px;
+	margin-left: 10px;
+}
+
+span {
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.centr {
+    text-align: center
+}
